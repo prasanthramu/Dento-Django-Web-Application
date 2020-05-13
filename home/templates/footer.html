@@ -1,0 +1,82 @@
+  {% load static %}
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'home/img/bg-img/3.jpg' %});">
+    <div class="container">
+      <div class="row">
+        <!-- Single Footer Widget -->
+        <div class=" col-sm-6 col-lg-4">
+          <div class="single-footer-widget">
+            <a href="{% static 'home/index.html' %}" class="d-block mb-4"><img src="{% static 'home/img/core-img/logo.png' %}" alt=""></a>
+            <div class="footer-contact">
+              <p><i class="icon_pin"></i> No 7, 100ft Road, Taramani, Chennai - 600113</p>
+              <p><i class="icon_phone"></i>+044 - 15 987456</p>
+              <p><i class="icon_mail"></i> information@dento.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <center>
+            <h5 class="widget-title">Opening Hours</h5>
+            </center>
+            <!-- Opening Hours -->
+            <ul class="opening-hours">
+              <li><span>Mon-Wed</span> <span>8.00-18.00</span></li>
+              <li><span>Thu-Fri</span> <span>8.00-17.00</span></li>
+              <li><span>Sat</span> <span>9.00-17.00</span></li>
+              <li><span>Sun</span> <span>10.00-17.00</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class=" col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <center>
+            <h5 class="widget-title">Quick Link</h5>
+            </center> 
+            <!-- Quick Links Nav -->
+            <nav>
+              <ul class="quick-links">
+                <span>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'service' %}">Service</a></li>
+                <li><a href="{% url 'pricing' %}">Pricing</a></li>
+                </span>
+                <span>
+                <li><a href="{% url 'booking' %}">Booking</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'pricing' %}">Contact</a></li>
+                </span>
+                <span>
+                <li><a href="http://www.facebook.com">Facebook</a></li>
+                <li><a href="http://www.twitter.com">Twitter</a></li>
+                <li><a href="https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/">Email</a></li>
+                </span>
+
+
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+
+    <!-- Copywrite Area -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="copywrite-content">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
